@@ -1,0 +1,54 @@
+*
+{
+    background-color: #191919;
+}
+
+.top-bar
+{
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.top-bar a
+{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.top-bar a:hover
+{
+    color: white;
+    font-size: 30px;
+    background-color: rgb(45, 66, 99, 0.1);
+    border-radius: 10%;
+}
+
+.top-bar a.active
+{
+    background-color: rgb(200, 75, 49, 0.5);
+    color: white;
+}
+
+#kahoot
+{
+    max-width: 50%;
+    max-height: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 20%;
+    transition: ease-in 0.25s;
+}
+
+#kahoot:hover
+{
+    transform: scale(1.1);
+    z-index: 2;
+}
+
