@@ -1,6 +1,6 @@
-*
+body
 {
-    background-color: #d4a373;
+  background: linear-gradient(94deg, rgba(0,150,255,1) 0%, rgba(36,162,86,1) 62%);
 }
 
 .top-bar
@@ -10,6 +10,8 @@
     display: flex;
     justify-content: center;
     color: black;
+    position: fixed;
+    margin-left: 40%;    
 }
 
 .top-bar a
@@ -21,6 +23,7 @@
     text-decoration: none;
     font-size: 25px;
     transition: 0.3s;
+    border-radius: 2cm;
 }
 
 .top-bar a:hover
@@ -33,7 +36,7 @@
 
 .top-bar a.active
 {
-    background-color: rgb(200, 75, 49, 0.5);
+    background-color: rgba(245, 60, 60, 0.612);
     color: white;
 }
 
@@ -96,3 +99,18 @@
   .carousel__button:hover {
     opacity: 0.5;
   }
+
+  .images-left
+  {
+    margin-left: 85px;
+    border-radius: 20px;
+    display: flex;
+  }
+
+  .images-right
+{
+  margin-left: 85px;
+  border-radius: 20px;
+  display: flex
+  
+}
