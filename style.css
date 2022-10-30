@@ -3,6 +3,11 @@ body
   background: linear-gradient(94deg, rgba(0,150,255,1) 0%, rgba(36,162,86,1) 62%);
 }
 
+html
+{
+  scroll-behavior: smooth;
+}
+
 .top-bar
 {
     overflow: hidden;
@@ -10,7 +15,7 @@ body
     display: flex;
     justify-content: center;
     color: black;
-    position: fixed;
+    position: absolute;
     margin-left: 40%;    
 }
 
@@ -113,4 +118,64 @@ body
   border-radius: 20px;
   display: flex
   
+}
+
+.journey
+{
+  background-color: #D7CC64;
+  font-family: 'Inika', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 384px;
+  width: 303px;
+  height: 85px;
+  left: 400px;
+  top: 845px;
+  border-radius: 15px;
+  cursor: pointer;
+  border-color: rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+.journey:hover
+{
+  box-shadow:  0 0 20px rgba(0,0,0,0.5);
+  -webkit-transform: scale(1.1);
+
+}
+
+#h2
+{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  margin-left: 720px;
+  font-style: italic;
+  font-size: 48px;
+  line-height: 58px;
+  background-color: rgba(0, 0, 0, 0.25);
+  margin-right: 574px;
+
+}
+
+.para
+{
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 58px;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-shadow: 0px 7px 4px rgba(0,0,0,00.25);
 }
